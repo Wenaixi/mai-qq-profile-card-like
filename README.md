@@ -6,7 +6,7 @@
 
 支持通过命令或自然语言请求麦麦为自己的 QQ 名片点赞。
 
-- **插件目录**：`github_FleetingEternity-qyt_qq-like`
+- **插件目录**：`wenaixi_mai_qq_profile_card_like`
 - **生效版本**：`v1.0.1`
 - **开源许可证**：`GPL-3.0`
 
