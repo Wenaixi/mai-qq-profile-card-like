@@ -1,7 +1,22 @@
-/config.toml
-/data/
-*.pyc
+# Python 运行与测试缓存
 __pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+*.pyc
 
-# 本地专属记忆库（禁止提交与推送）
+# 核心项目记忆库（严禁推送到公共远端）
 CLAUDE.md
+CLAUDE*.md
+.omc/
+
+# 本地真实配置与持久数据
+config.toml
+config.toml.*
+data/
+*.db
+*.sqlite*
+*.log
+*.jsonl
+.update_tmp/
