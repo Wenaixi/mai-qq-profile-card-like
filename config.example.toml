@@ -1,0 +1,21 @@
+# 配置模板：复制为 config.toml 后按需修改。
+# 真实 config.toml 已在 .gitignore 中排除，请勿把填写后的版本提交到版本库。
+# 标注 YOUR_*_HERE 的字段必须替换为实际值才能工作。
+
+[plugin]
+enabled = true
+config_version = "0.1.0"
+
+[like]
+default_times = 10
+max_times = 20
+daily_limit_per_target = 30
+cooldown_seconds = 30
+allow_at_target = true
+allow_reply_target = true
+allow_raw_qq = true
+enable_llm_tool = true
+
+[admin]
+admin_only = false
+admins = "121645025"
